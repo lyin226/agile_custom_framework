@@ -6,10 +6,11 @@ import com.custom.framework.util.PropsUtil;
 import java.util.ResourceBundle;
 
 /**
+ * 属性文件助手类
  * @author liuyi
  * @date 2018/10/14
  */
-public class ConfigHelper {
+public final class ConfigHelper {
 
     private static final ResourceBundle resource = PropsUtil.getResource(Constants.CONFIG_FILE);
 
