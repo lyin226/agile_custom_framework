@@ -3,6 +3,7 @@ package com.custom.framework.util;
 import java.util.ResourceBundle;
 
 /**
+ * 属性工具类
  * @author liuyi
  * @date 2018/10/14
  */
