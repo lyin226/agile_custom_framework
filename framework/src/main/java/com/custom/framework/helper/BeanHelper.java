@@ -11,7 +11,7 @@ import java.util.Set;
  * @author liuyi
  * @date 2018/10/25
  */
-public class BeanHelper {
+public final class BeanHelper {
 
     /**
      * 定义Bean映射（用于存放Bean类与Bean实例的映射关系）

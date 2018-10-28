@@ -14,7 +14,7 @@ import java.util.Map;
  * @author liuyi
  * @date 2018/10/27
  */
-public class IocHelper {
+public final class IocHelper {
 
     static {
         //获取所有的Bean类与Bean实例之间的映射关系（简称BeanMap）
