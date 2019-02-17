@@ -47,4 +47,13 @@ public final class BeanHelper {
         return (T)BEAN_MAP.get(cls);
     }
 
+    /**
+     * 设置Bean 实例
+     * @param cls
+     * @param obj
+     */
+    public static void setBeanMap(Class<?> cls, Object obj) {
+        BEAN_MAP.put(cls, obj);
+    }
+
 }
